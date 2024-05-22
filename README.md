@@ -28,11 +28,11 @@
 In your terminal, run the following commands:
 
 ```bash
-git clone https://github.com/saasai-dev/saasai-dev-temp.git
+git clone https://github.com/saasai-dev/saasai-dev-starter-kit-pro.git
 ```
 
 ```bash
-cd saasai-dev-temp
+cd saasai-dev-starter-kit-pro
 ```
 
 #### 2. Create a new repository on GitHub
