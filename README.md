@@ -7,6 +7,7 @@
    1. [Deployment](#deployment)
    2. [Local Development](#local-development)
    3. [Going Live](#going-live)
+3. [For Non-Coders: Getting Started Resources](#for-non-coders-getting-started-resources)
 
 ## Prerequisites
 
@@ -253,3 +254,32 @@ To run the project in live mode and process payments with Stripe, switch Stripe 
 Afterward, you will need to rebuild your production deployment for the changes to take effect. Within your project Dashboard, navigate to the "Deployments" tab, select the most recent deployment, click the overflow menu button (next to the "Visit" button) and select "Redeploy" (do NOT enable the "Use existing Build Cache" option).
 
 To verify you are running in production mode, test checking out with the [Stripe test card](https://stripe.com/docs/testing). The test card should not work.
+
+
+## For Non-Coders: Getting Started Resources
+
+If you're new to coding or the technologies used in this starter kit, don't worry! Here are some resources to help you get started. You don't need to become an expert, but understanding the basics will help you customize and manage your SaaS.
+
+### General Web Development
+
+*   **MDN Web Docs:** The ultimate resource for HTML, CSS, and JavaScript fundamentals.
+    *   [HTML Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
+    *   [CSS Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+    *   [JavaScript Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
+*   **The Odin Project:** A free, open-source curriculum for learning full-stack web development.
+    *   [Full Stack JavaScript Path](https://www.theodinproject.com/paths/full-stack-javascript)
+
+### Key Technologies in this Kit
+
+*   **React (UI Library):** The foundation for the user interface components used in Next.js.
+    *   [Official React Tutorial](https://react.dev/learn)
+*   **Next.js (Website Framework):** Learn how the website pages are built on top of React.
+    *   [Official Next.js Learn Course](https://nextjs.org/learn)
+*   **Supabase (Backend & Database):** Understand where your user data is stored and managed.
+    *   [Supabase Docs: Get Started](https://supabase.com/docs/guides/getting-started)
+*   **Node.js (Server Environment):** The environment where some backend logic runs.
+    *   [Node.js Dev: Get Started](https://nodejs.dev/en/learn/)
+*   **Git & GitHub (Version Control):** Learn how code changes are tracked and managed.
+    *   [GitHub Skills](https://skills.github.com/)
+
+Take your time exploring these resources. Focus on understanding the core concepts relevant to managing your SaaS application.
